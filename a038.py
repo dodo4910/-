@@ -1,3 +1,12 @@
+#--------------------【網友提供較好的解法】-----------------------
+import sys
+for s in sys.stdin:
+    res = ""
+    s = s.replace("\r\n","")
+    print(int(s[::-1])) #直接轉數字輸出，這招厲害
+
+
+#-------------------------【method 1】--------------------------
 import sys
 for text in sys.stdin:
     text2=text[::-1]
