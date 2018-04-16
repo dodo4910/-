@@ -1,6 +1,5 @@
 import sys
 import datetime
-import time
 
 date1 = 0
 
