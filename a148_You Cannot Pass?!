@@ -1,0 +1,15 @@
+import sys
+
+for num in sys.stdin:
+    list_a = map(int,num.split())
+    a = list(list_a)
+    total = 0
+    for i in range(len(a)-1):
+        total = a[i+1] + total
+    
+    if total/a[0] > 59:
+        print('no')
+    else:
+        print('yes')
+
+    
